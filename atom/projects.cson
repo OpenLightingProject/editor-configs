@@ -1,0 +1,27 @@
+[
+  {
+    title: "OLA"
+    group: "OLP"
+    paths: [
+      "/home/your/path/to/ola"
+    ]
+    icon: "light-bulb"
+    settings:
+      "editor.tabLength": 2
+      "editor.showInvisibles": false
+      "editor.tabType": "soft"
+      "linter-cpplint":
+        filters: "-legal/copyright,-readability/streams,-runtime/arrays"
+      "linter-gjslint":
+        flags: [
+        ]
+      "linter-flake8":
+        ignoreErrorCodes: [
+          "E111"
+          "E121"
+          "E127"
+          "E129"
+        ]
+        maxLineLength: 80
+  }
+]
